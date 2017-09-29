@@ -64,12 +64,27 @@ Notes on the REST API (often refered to as RESTful APIs)
 GET    https://api.example.com/users - for all users or a limitted number of users
 GET    https://api.example.com/user/1 - return the specific user by identifier (1 in this case)
 
-POST   https://api.example.com/users - to add new users
+POST   https://api.example.com/users - to add new user to the server
 POST   https://api.example.com/uers/add - another typical URI structure for adding entities
 
-PUT    https://api.example.com/users/1 - to update user with id 1
+PUT    https://api.example.com/users/1 - to update user with id 1 on the server
 PUT    https://api.example.com/user/update/1 - another typical URI structure for updating entities
 
-DELETE https://api.example.com/users/1 - delete user with id 1
+DELETE https://api.example.com/users/1 - delete user with id 1 on the server
 DELETE https://api.example.com/users/delete/1 - another typical URI structure for deleting entities
 ```
+Note another typical way is to use an api directory `https://example.com/api/users` instead of the using the api domain.
+
+Note that several of the above examples use the same URI, which is ok as long as they are different methods (GET, POST, PUT, DELETE)
+
+# Authentication
+
+Sometimes authentication is required
+
+## Ecamples
+
+* curl -H "Authorization: token OATH_TOKEN" https://api.github.com
+
+* curl https://api.github.com/?access_token=OATH_TOKEN
+
+* curl 'https://api.github.com/user/username?client_id=xxxx&client_secret=xxx'
