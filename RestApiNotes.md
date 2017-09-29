@@ -57,3 +57,19 @@ Notes on the REST API (often refered to as RESTful APIs)
 * DELETE - delete data on the server (also not available through standard HTML, use AJAX, etc)
 
 * POST vs PUT - POST should be used for adding new enties, while PUT should be used for updating exiting entities
+
+# Example End Points
+
+```
+GET    https://api.example.com/users - for all users or a limitted number of users
+GET    https://api.example.com/user/1 - return the specific user by identifier (1 in this case)
+
+POST   https://api.example.com/users - to add new users
+POST   https://api.example.com/uers/add - another typical URI structure for adding entities
+
+PUT    https://api.example.com/users/1 - to update user with id 1
+PUT    https://api.example.com/user/update/1 - another typical URI structure for updating entities
+
+DELETE https://api.example.com/users/1 - delete user with id 1
+DELETE https://api.example.com/users/delete/1 - another typical URI structure for deleting entities
+```
