@@ -81,10 +81,16 @@ Note that several of the above examples use the same URI, which is ok as long as
 
 Sometimes authentication is required
 
-## Ecamples
+## Examples
 
-* curl -H "Authorization: token OATH_TOKEN" https://api.github.com
+* Set an OATH_TOKEN in the header
 
-* curl https://api.github.com/?access_token=OATH_TOKEN
+`curl -H "Authorization: token OATH_TOKEN" https://api.github.com`
 
-* curl 'https://api.github.com/user/username?client_id=xxxx&client_secret=xxx'
+* Set an OATH_TOKEN in the URI
+
+`curl https://api.github.com/?access_token=OATH_TOKEN`
+
+* Use client id and secret
+
+`curl 'https://api.github.com/user/username?client_id=xxxx&client_secret=xxx'`
