@@ -18,11 +18,15 @@ Notes on the REST API (often refered to as RESTful APIs)
 
 * Client Server architecture with caching which improves scalability and performance
 
+* Uses a structured request and a structured response
+
 * Resource based (REST) rather than action based services (SOAP API)
 
 * Resources identified by URIs
 
 * Can have multiple services per URI as long as they are different types (GET, POST, PUT, DELETE)
+
+* Treats server objects as resources that can be created, modified, and removed
 
 * Representation separate from the Resource.  The URI is not necessarily the physical directory location of the resource.
 
@@ -44,12 +48,12 @@ Notes on the REST API (often refered to as RESTful APIs)
 
 # Resuest verbs
 
-* GET
+* GET - retrieve data
 
-* POST
+* POST - add data to server
 
-* PUT
+* PUT - update data on the server (not available through HTML forms, need AJAX or other methods)
 
-* DELETE
+* DELETE - delete data on the server (also not available through standard HTML, use AJAX, etc)
 
 * POST vs PUT - POST should be used for adding new enties, while PUT should be used for updating exiting entities
