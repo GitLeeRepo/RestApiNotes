@@ -40,4 +40,16 @@ Notes on the REST API (often refered to as RESTful APIs)
 
 * Stateless - Each message is self-descriptive.  Server has no client state (the client can manage its own state)
 
+* Code on Demand - capable of transferring app logic to the client, through JavaScript for example
 
+# Resuest verbs
+
+* GET
+
+* POST
+
+* PUT
+
+* DELETE
+
+* POST vs PUT - POST should be used for adding new enties, while PUT should be used for updating exiting entities
