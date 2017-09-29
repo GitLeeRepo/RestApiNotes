@@ -4,7 +4,7 @@ Notes on the REST API (often refered to as RESTful APIs)
 
 # Reference
 
-* [REST APIs Explained](https://www.youtube.com/watch?v=Q-BpqyOT3a8) - YouTube video
+* [REST APIs Explained](https://www.youtube.com/watch?v=Q-BpqyOT3a8) - YouTube video by Traversy Media.  Several of the notes taken from this video
 
 * [REST API concepts and examples](https://www.youtube.com/watch?v=7YcW25PHnAA) - YouTube video
 
