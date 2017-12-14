@@ -3,13 +3,13 @@
 Notes on the curl command line tool for transferring data via a number of protocols, including HTTP, IMAP, POP3, FILE, FTP, etc.  It is open source, it can be found on Linux distros, MacOS, and on Windows using something such as Git Bash.  Here is the 
 [main website](https://curl.haxx.se/).  In some respects curl is similar to wget, but much more powerful.
 
-# Commandline options
+# Command Line Options
 
 ## Test site
 
-The curl examples here are run agains the [JSONPlaceholder site](https://jsonplaceholder.typicode.com/) test site, which is a good site for testing JSON/AJAX and REST API.
+The curl examples here are run against the [JSONPlaceholder site](https://jsonplaceholder.typicode.com/) test site, which is a good site for testing JSON/AJAX and REST API.
 
-* Without paramaters or filters
+* Without parameters or filters
 
 ```
 curl https://jsonplaceholder.typicode.com/posts/

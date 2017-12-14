@@ -1,6 +1,6 @@
 # Overview
 
-Notes on the REST API (often refered to as RESTful APIs)
+Notes on the REST API (often referred to as RESTful APIs)
 
 # Reference
 
@@ -28,13 +28,13 @@ Notes on the REST API (often refered to as RESTful APIs)
 * Stateless - Each message is self-descriptive.  Server has no client state (the client can manage its own state)
 * Code on Demand - capable of transferring app logic to the client, through JavaScript for example
 
-# Resuest verbs
+# Request verbs
 
 * GET - retrieve data
 * POST - add data to server
 * PUT - update data on the server (not available through HTML forms, need AJAX or other methods)
 * DELETE - delete data on the server (also not available through standard HTML, use AJAX, etc)
-* POST vs PUT - POST should be used for adding new enties, while PUT should be used for updating exiting entities
+* POST vs PUT - POST should be used for adding new entries, while PUT should be used for updating exiting entities
 
 # Example End Points
 
@@ -51,7 +51,7 @@ PUT    https://api.example.com/user/update/1 - another typical URI structure for
 DELETE https://api.example.com/users/1 - delete user with id 1 on the server
 DELETE https://api.example.com/users/delete/1 - another typical URI structure for deleting entities
 ```
-Note another typical way is to use an api directory `https://example.com/api/users` instead of the using the api domain.
+Note another typical way is to use an API directory `https://example.com/api/users` instead of the using the API domain.
 
 Note that several of the above examples use the same URI, which is ok as long as they are different methods (GET, POST, PUT, DELETE)
 
