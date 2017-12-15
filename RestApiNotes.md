@@ -39,7 +39,7 @@ Notes on the REST API (often referred to as RESTful APIs)
 # Example End Points
 
 ```
-GET    https://api.example.com/users - for all users or a limitted number of users
+GET    https://api.example.com/users - for all users or a limited number of users
 GET    https://api.example.com/user/1 - return the specific user by identifier (1 in this case)
 
 POST   https://api.example.com/users - to add new user to the server
