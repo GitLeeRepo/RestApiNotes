@@ -104,6 +104,8 @@ Refer to:
 
 * [GitHub API Docs](https://developer.github.com/v3/)
 
+### GitHub Basic API
+
 * Get specific user info
 
 ```
