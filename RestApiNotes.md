@@ -4,10 +4,22 @@ Notes on the REST API (often referred to as RESTful APIs)
 
 # Reference
 
+## YouTube Videos
+
 * [REST APIs Explained](https://www.youtube.com/watch?v=Q-BpqyOT3a8) - YouTube video by Traversy Media.  Several of the notes taken from this video
 * [REST API concepts and examples](https://www.youtube.com/watch?v=7YcW25PHnAA) - YouTube video
 * [Intro to REST](https://www.youtube.com/watch?v=llpr5924N7E) - YouTube video
 * [CURL tutorial](https://www.youtube.com/watch?v=7XUibDYw4mc) - YouTube video
+
+## My Other Notes
+
+* [curlNotes](https://github.com/GitLeeRepo/RestApiNotes/blob/master/curlNotes.md#overview)
+* [AjaxNotes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/AjaxNotes.md#overview)
+* [Angular4Notes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/Angular4Notes.md#overview)
+* [JsonNotes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/JsonNotes.md#overview)
+* [NodejNotes](https://github.com/GitLeeRepo/NodejsNotes/blob/master/NodejNotes.md#overview)
+* [PHPNotes](https://github.com/GitLeeRepo/PHPNotes/blob/master/PHPNotes.md#overview)
+* [PythonNotes](https://github.com/GitLeeRepo/PythonNotes/blob/master/PythonNotes.md#overview)
 
 # What is REST?
 
