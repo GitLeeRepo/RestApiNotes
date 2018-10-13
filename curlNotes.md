@@ -100,6 +100,10 @@ curl -u username:password -O ftp://ftp.thesite/thefolder/test.txt
 
 ## GitHub examples
 
+Refer to:
+
+* [GitHub API Docs](https://developer.github.com/v3/)
+
 * Get specific user info
 
 ```
