@@ -3,6 +3,18 @@
 Notes on the curl command line tool for transferring data via a number of protocols, including HTTP, IMAP, POP3, FILE, FTP, etc.  It is open source, it can be found on Linux distros, MacOS, and on Windows using something such as Git Bash.  Here is the 
 [main website](https://curl.haxx.se/).  In some respects curl is similar to wget, but much more powerful.
 
+# References
+
+## My Other Notes
+
+* [RestApiNotes](https://github.com/GitLeeRepo/RestApiNotes/blob/master/RestApiNotes.md#overview)
+* [AjaxNotes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/AjaxNotes.md#overview)
+* [Angular4Notes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/Angular4Notes.md#overview)
+* [JsonNotes](https://github.com/GitLeeRepo/JavaScriptNotes/blob/master/JsonNotes.md#overview)
+* [NodejNotes](https://github.com/GitLeeRepo/NodejsNotes/blob/master/NodejNotes.md#overview)
+* [PHPNotes](https://github.com/GitLeeRepo/PHPNotes/blob/master/PHPNotes.md#overview)
+* [PythonNotes](https://github.com/GitLeeRepo/PythonNotes/blob/master/PythonNotes.md#overview)
+
 # Command Line Options
 
 ## Test site
