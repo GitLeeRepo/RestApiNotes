@@ -112,3 +112,23 @@ Note this requires jq to be installed.  For Ubuntu: `sudo apt install jq`.  For 
 ```
 curl https://api.github.com/users/username/?client_id=xxxxxx&client_secret=xxxxxx
 ```
+
+## Additional GitHub Examples
+
+```bash
+# basic information
+curl -u "GitLeeRepo" https://api.github.com/users/GitLeeRepo
+
+# gets my repos under GitLeeRepo - by default this is only the public repos
+curl -u "GitLeeRepo" https://api.github.com/users/GitLeeRepo/repos
+
+# gets all my repos both public and private including contributes on other users repos
+# the page and per_page are included, otherwise it will only get the first 30 repos
+curl -u "GitLeeRepo" 'https://api.github.com/user/repos?page=1&per_page=100'
+
+# all the commits (can be very long)
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/commits
+
+# with sha for the specific commit
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/commits/60f1026b39b33c93bc5211df80504bcc19c74579
+```
