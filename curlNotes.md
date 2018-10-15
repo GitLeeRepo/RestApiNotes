@@ -103,6 +103,8 @@ curl -u username:password -O ftp://ftp.thesite/thefolder/test.txt
 Refer to:
 
 * [GitHub API Docs](https://developer.github.com/v3/)
+* [repo statistics](https://developer.github.com/v3/repos/statistics/)
+* [contributors](https://developer.github.com/v3/repos/#list-contributors)
 
 ### GitHub Basic API
 
@@ -150,4 +152,28 @@ curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/commits
 
 # with sha for the specific commit
 curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/commits/60f1026b39b33c93bc5211df80504bcc19c74579
+
+# OATH Application Grants
+curl -u "GitLeeRepo" https://api.github.com/applications/grants
+
+# branches
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/UbuntuNotes/branches{/branch}
+```
+
+Ones to sort out (some are giving empty results, when the examples show them returning data.  Trying to get a reliable number of commits stat on different repositories.  Explore these links further:
+
+* [repo statistics](https://developer.github.com/v3/repos/statistics/)
+* [contributors](https://developer.github.com/v3/repos/#list-contributors)
+
+```bash
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/UbuntuNotes/statuses/{sha}
+
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/3dsMaxNotes/milestones{/number}
+
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/3dsMaxNotes/notifications{?since,all,participating}
+
+# Does provide a contributions number, but it doesn't equal the number of commits on the website
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/stats/contributors
+
+curl -u "GitLeeRepo" https://api.github.com/repos/GitLeeRepo/GitInfo/contributors
 ```
